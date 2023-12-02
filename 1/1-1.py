@@ -11,7 +11,7 @@ def Decalibrate(input):
     output = numFirst + numLast
     return output
 
-f = open("1-1/input.txt", "r")
+f = open("1/input.txt", "r")
 
 inputs = f.readlines()
 sum = 0

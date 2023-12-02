@@ -23,7 +23,7 @@ def ConvertToDigits(string):
                 convertedString = convertedString[:i] + string[i:].replace(keys[j], values[j], 1)
     return convertedString
 
-f = open("1-1/input.txt", "r")
+f = open("1/input.txt", "r")
 #f = open("1-1/test.txt", "r")
 
 inputs = f.readlines()
